@@ -2,7 +2,7 @@
 
 ## Overview
 
-[![image.png](https://i.postimg.cc/nVsb9pq7/image.png)](https://postimg.cc/9zjNv38F)
+![](https://i.postimg.cc/bw6dNqQM/image.png)
 
 The Random Quote Generator is a simple web application that displays a randomly selected quote each time the user requests a new one. It is implemented in PHP and includes basic styling with CSS. The quotes are stored in a separate file named quotes.txt.
 
