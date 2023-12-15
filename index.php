@@ -21,7 +21,8 @@
     <header class="header">
         <nav class="nav container">
             <a href="https://ahmmedimtiaz.com" class="nav__logo"> Ahmmed Imtiaz </a>
-            <div class="nav__toggle" id="nav-toggle">
+            <div class="nav__toggle" id="nav-toggle" onclick="toggleCode()">
+                <a href="https://github.com/ahmmedimtiaz/quote-generator" target="_blank" class="source-code" id="sourceCode">Source Code</a>
                 <i class="bx bx-grid-alt"></i>
             </div>
         </nav>
@@ -65,5 +66,12 @@
             location.reload();
         }
     </script>
+
+    <script>
+    function toggleCode() {
+        var codeElement = document.getElementById("sourceCode");
+        codeElement.style.display = (codeElement.style.display === 'none' || codeElement.style.display === '') ? 'inline' : 'none';
+    }
+</script>
 </body>
 </html>
